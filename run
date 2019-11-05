@@ -1,0 +1,12 @@
+echo "Author : clvnfrlnsyh"
+echo "INSTALL i-MSCP"
+sleep 5
+clear
+apt-get update
+apt-get upgrade
+wget https://excellmedia.dl.sourceforge.net/project/i-mscp/i-MSCP%201.5.3-2018120800/imscp-1.5.3-2018120800.tar.gz
+tar -xzvf imscp-1.5.3-2018120800.tar.gz
+cd imscp-1.5.3-2018120800/
+./imscp-autoinstall
+
+echo "Done"
